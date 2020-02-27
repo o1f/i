@@ -1,0 +1,16 @@
+﻿{
+  "Version": "13.0.1",
+  "Name": "fanghong.net 短链",
+  "DestinationType": "URLShortener",
+  "RequestMethod": "POST",
+  "RequestURL": "http://www.fanghong.net/cbfh.php",
+  "Parameters": {
+    "cb": "1",
+    "lb": "1",
+    "sturl": "2",
+    "longurl": "$input$"
+  },
+  "Body": "MultipartFormData",
+  "FileFormName": "longurl",
+  "URL": "$json:dwz_url$"
+}
