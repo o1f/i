@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="height: 100%">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Everything - 已分享的动作 - Quicker</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Quicker,Windows效率神器。为您的常用Windows操作建立捷径，更快、更简单的完成工作，让效率触手可及。">
+    <meta name="keywords" content="Windows效率工具,快捷面板,界面操作自动化,模拟按键,Quicker,鼠标手势" />
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" href="https://files.getquicker.net/_sitefiles/quicker_round_128.png" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y=" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css" integrity="sha256-PHcOkPmOshsMBC+vtJdVr5Mwb7r0LkSVJPlPrp/IMpU=" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.1/dist/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="/assets/css/theme-4.css">
+    <link id="stylesheet" rel="stylesheet" href="/assets/css/site.css?v=eWN76yKl9MPj8Hhxs8B9VUzUCEfX9RhDXMFbpcmlDnk">
+
+    <link rel="stylesheet" href="https://files.getquicker.net/_sitefiles/www/libs/fontawesome/5.12.1/css/all.min.css" />
+
+    
+    <!-- include summernote css/js -->
+    <link href="/lib/summernote/summernote-bs4.css" rel="stylesheet">
+    <style>
+        .action-detail p {
+            margin-bottom: 0.3em;
+        }
+
+        .reply-body p {
+            margin-bottom: 0.3em;
+        }
+
+        .reply {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+            .reply .blockquote {
+                font-size: 0.8rem;
+                color: #999;
+                border-left: 1px solid #E0E0E0;
+                padding-left: 8px;
+            }
+
+                .reply .blockquote p {
+                    margin-bottom: 0.3em;
+                }
+
+                .reply .blockquote img {
+                    display: none;
+                }
+
+        img {
+            max-width: 99% !important;
+        }
+
+        h5 {
+            /*border-bottom: 1px solid #f5f5f5;*/
+            font-size: 1.2em;
+            font-weight: bolder;
+            margin-bottom: 0.5em;
+            margin-top: 1em;
+        }
+
+        p {
+            margin-bottom: 0.3em;
+        }
+
+        .font14 {
+            font-size: 14px;
+        }
+
+        .reply-quote {
+            border-left: 1px solid #E0E0E0;
+            padding-left: 5px;
+            font-size: 0.85em;
+            color: #999999;
+            max-height: 100px;
+            overflow: hidden;
+            margin-bottom: 5px;
+        }
+
+
+
+            .reply-quote img {
+                max-height: 100px;
+            }
+
+        .avatar {
+            max-width: 24px;
+            opacity: 1;
+        }
+
+        .thread, .post {
+            border-bottom: 1px solid #e9ecef;
+            padding: 0.7rem 0px;
+        }
+
+            .thread:hover {
+                background-color: white;
+            }
+
+        .threadlist > .thread:last-child,
+        .postlist > .post:last-child {
+            border-bottom: 0px;
+        }
+
+        .main-panel section {
+            margin-bottom: 25px;
+        }
+
+            .main-panel section h4 {
+                font-weight: bold;
+                color: #666666;
+            }
+    </style>
+
+
+    
+        <script>
+            var _hmt = _hmt || [];
+            (function () {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?7bab827f502b0ce36fc1dce2b3656412";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+    
+</head>
+<body class="" style="height: 100%;">
+
+
+    <nav class="navbar fixed-top  navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand align-middle d-flex align-items-center" href="/">
+                <img id="logo-image" class="logo-image align-middle" src="https://files.getquicker.net/_sitefiles/quicker_round_128.png" alt="Logo" style="max-height: 26px">
+                <span class="pl-1" >Quicker</span>
+            </a>
+
+            <div class="navbar-collapse collapse justify-content-between" id="navbar-collapse">
+                <ul class="navbar-nav navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/" title="打开主页">
+                            <i class="fas fa-fw fa-home"></i>
+                            主页
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" title="下载Quicker软件和客户端" href="/Download">
+                            <i class="fas fa-fw fa-download"></i>
+                            下载
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/pricing">
+                            <i class="fas fa-fw fa-shopping-cart"></i>
+                            专业版
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav">
+                    <li class="nav-item mr-4 d-flex align-items-center">
+                        <form class="form-inline" method="get" action="/Search">
+                            <div class="input-group input-group-sm">
+                                <input type="text" name="keyword" placeholder="搜索..." title="搜索Quicker网站的内容" class="search-box form-control  border-secondary" style="border-right:0;" />
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-secondary" type="submit" title="搜索" style="border-left:0;">
+                                        <i class="fas fa-fw fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" title="动作库" data-toggle="tooltip" data-placement="bottom" href="/Share">
+                            <i class="fas fa-fw fa-th-large"></i>
+                            <span class="d-inline d-lg-none">动作库</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" title="外观设置分享" data-toggle="tooltip" data-placement="bottom" href="/Skins">
+                            <i class="fas fa-fw fa-tshirt"></i>
+                            <span class="d-inline d-lg-none">外观</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" title="文档" data-toggle="tooltip" data-placement="bottom" href="/KC">
+                            <i class="fas fa-fw fa-books"></i>
+                            <span class="d-inline d-lg-none">文档</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" title="讨论区" data-toggle="tooltip" data-placement="bottom" href="/QA">
+                            <i class="fas fa-fw fa-comments-alt"></i>
+                            <span class="d-inline d-lg-none">讨论区</span>
+                        </a>
+                    </li>
+                    
+
+
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tooltip" data-placement="bottom" href="/Identity/Account/Login">
+            <i class="fas fa-sign-out"></i> 登录
+        </a>
+    </li>
+
+
+
+                </ul><!--//nav-->
+
+            </div><!--//navabr-collapse-->
+        </div>
+    </nav>
+
+
+
+    <div class="body-wrapper" style="position: relative">
+        
+
+<div style="background-color: #e0e0e0">
+    <div class=" mt-0 pb-3 container bg-white sticky-top shadow-sm" style="background-color: #F5F5F5; border-bottom: 1px solid #F0F0F0">
+
+        <div class="">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb  pl-0" style="background-color: transparent">
+                    <li class="breadcrumb-item"><a href="/Share">动作库</a></li>
+                    <li class="breadcrumb-item"><a href="/Share/exelist">所有软件</a></li>
+                    <li class="breadcrumb-item">
+                        <a href="/Share/Actions?exe=common">
+                            <img src="https://files.getquicker.net/_icons/24BF2D852C7F69657D3736423B755E05C06F715B.png" style="width: 20px; height: 20px" />
+                            通用
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">查看动作</li>
+                </ol>
+            </nav>
+        </div>
+
+
+        <div>
+            <div class="row">
+                <div class="col-12 col-md-9 d-flex">
+                    <div class="action-item align-middle" sharedAction="2861085b-84ba-4d5f-59dc-08d74b386fff" title="点击复制">
+                        <img class="action-icon" src="https://files.getquicker.net/_icons/F7C91F9E00BA06D0DB3CFF9AC1298F13C5818618.png" />
+                        <div class="action-title">Everything</div>
+                    </div>
+                    <div class="pl-3 pt-0 flex-grow-1">
+                        <h4 class="align-middle font-weight-bold mt-2">
+                            Everything
+                            <small>
+                                <span class="badge badge-pill badge-info">公开</span>
+                            </small>
+
+
+                        </h4>
+                        <div class="">
+                            <span class="" title="分享人">
+                                
+                                <strong>
+                                        <a class="user-link" href="/User/583/Marcus">
+        Marcus
+    </a>
+
+                                </strong>
+                                <span class="small text-secondary">
+                                    分享于 2019-10-07 23:10
+                                </span>
+                            </span>
+
+                            <span class="text-black-50 ml-2 mr-2">|</span>
+                            <span title="喜欢数量">
+                                <i class="fas fa-heart text-secondary fa-fw"></i>
+                                3
+                            </span>
+                            <span class="text-black-50 ml-2 mr-2">|</span>
+                            <span title="安装数量，每日更新">
+                                <i class="fas fa-download text-secondary fa-fw"></i>
+                                250
+                            </span>
+                            <span class="text-black-50 ml-2 mr-2">|</span>
+                            <span class="text-black-50 " title='成功率'>
+
+                                <i class="fas fa-chart-pie-alt text-secondary fa-fw"></i>
+                                <a class="" href="/SharedactionFeedbacks?code=2861085b-84ba-4d5f-59dc-08d74b386fff">
+                                    
+    <div style="height: 2px; background-color:darkorange; width: 60px; " class="d-inline-block" title="92%">
+        <div style="height: 100%; width: 92%; background-color: #70EE70"></div>
+    </div>
+    <span class="small text-black-50" title="92%">
+        134/145
+    </span>
+
+
+                                </a>
+                            </span>
+                        </div>
+                        <div class="pt-2 text-secondary">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 ">
+                    <div class="">
+                        <button id="btnCopyToClipboard" class="btn btn-success  mb-2 mt-2" sharedAction="2861085b-84ba-4d5f-59dc-08d74b386fff">
+                            <i class="fas fa-copy mr-1"></i>
+                            复制到剪贴板
+                        </button>
+                        <small class="d-block">
+                            <a href="https://www.yuque.com/quicker/help/install-action">如何使用分享的动作？</a>
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <div class="container pb-3 mt-3">
+        <div class="row align-content-between font14 ">
+            <div class="col-12 col-md-3  order-md-last  bg-white rounded">
+
+
+                <h5>适用软件</h5>
+                <div>
+                    <a href="/Share/Exe/common">
+                        <img src="https://files.getquicker.net/_icons/24BF2D852C7F69657D3736423B755E05C06F715B.png" style="width: 20px; height: 20px" />
+                        通用
+                    </a>
+                </div>
+                <h5>分类</h5>
+                <a class="d-block" href="/Share/Actions?category=15">
+                    <span class="">
+                        <i class="fab fa-windows"></i>
+                        Windows
+                    </span>
+                </a>
+                <a class="d-block" href="/Share/Actions?category=16">
+                    <span class="">
+                        <i class="fas fa-file"></i>
+                        文件处理
+                    </span>
+                </a>
+                <a class="d-block" href="/Share/Actions?category=21">
+                    <span class="">
+                        <i class="fas fa-folder-tree"></i>
+                        资源管理器
+                    </span>
+                </a>
+                <h5>动作类型</h5>
+                <div>
+                    <img src="https://files.getquicker.net/_system/composite.png" style="width: 20px; height: 20px;" title="" />
+                    组合动作(高级)
+                </div>
+                <h5>
+                    喜欢
+
+
+
+                </h5>
+                <div>
+
+                    <div>
+    <a class="user-link" href="/User/3/CL">
+        CL
+    </a>
+    <a class="user-link" href="/User/88055/vimgim">
+        vimgim
+    </a>
+    <a class="user-link" href="/User/71151/%E6%B2%90%E9%9C%96">
+        沐霖
+    </a>
+                        <span>等 <span class="text-danger font-weight-bold">3</span> 人喜欢了这个动作。</span>
+                    </div>
+                </div>
+                <h5>更多信息</h5>
+                <table class="table-sm small">
+
+                    <tr>
+                        <td>分享人</td>
+                        <td>     <a class="user-link" href="/User/583/Marcus">
+        Marcus
+    </a>
+</td>
+                    </tr>
+                    <tr>
+                        <td>分享时间</td>
+                        <td>2019-10-07 23:10</td>
+                    </tr>
+                    <tr>
+                        <td>最后更新</td>
+                        <td>2020-02-15 20:26</td>
+                    </tr>
+                    <tr>
+                        <td>修订版本</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>限制再分享</td>
+                        <td>否</td>
+                    </tr>
+                    <tr>
+                        <td>Quicker版本</td>
+                        <td>1.4.17.0</td>
+                    </tr>
+                </table>
+                <hr />
+                <div class="mb-5">
+                    <div>
+                        分享到：
+                    </div>
+                    <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fgetquicker.net%2Fsharedaction%3Fcode%3D2861085b-84ba-4d5f-59dc-08d74b386fff&amp;title=%23Quicker%E5%8A%A8%E4%BD%9C%23Everything--%E4%BA%BA%E6%80%A7%E5%8C%96%E3%80%81%E9%80%9A%E7%94%A8%E3%80%81%E9%AB%98%E6%95%88%E7%9A%84%20Everything%20%E6%90%9C%E7%B4%A2%E5%8A%A8%E4%BD%9C%E3%80%82%20%E4%BD%9C%E8%80%85%3AMarcus" title="分享到微博" target="_blank">
+                        <i class="fab fa-weibo fa-fw" style="font-size: 1.2em"></i>
+                    </a>
+
+                    <a href="javascript:return false;" id="btnWeixin" title="微信扫一扫" target="_blank">
+                        <i class="fab fa-weixin fa-fw" style="font-size: 1.2em"></i>
+                    </a>
+                    <a href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https%3A%2F%2Fgetquicker.net%2Fsharedaction%3Fcode%3D2861085b-84ba-4d5f-59dc-08d74b386fff&amp;sharesource=qzone&amp;title=%23Quicker%E5%8A%A8%E4%BD%9C%23Everything&amp;pics=&amp;summary=%E4%BA%BA%E6%80%A7%E5%8C%96%E3%80%81%E9%80%9A%E7%94%A8%E3%80%81%E9%AB%98%E6%95%88%E7%9A%84%20Everything%20%E6%90%9C%E7%B4%A2%E5%8A%A8%E4%BD%9C%E3%80%82" title="分享到QQ空间" target="_blank">
+                        <i class="fab fa-qq fa-fw" style="font-size: 1.2em"></i>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-md-9 order-md-first pl-0 pr-0 pr-md-3 mt-3 mt-md-0">
+                <div class="bg-white mt-0 pl-3 pt-3 rounded pb-3 pr-3 main-panel" data-info="动作信息">
+
+
+                    <section>
+                        <h4>用途与备注</h4>
+                        <p class="">【功能/用途】人性化、通用、高效的 Everything 搜索动作。</p>
+                        <p>【备注】使用本动作前需要先安装Everything主程序，安装版不需要选择程序路径。便携版如果存放在非标准路径，也可以很方便的一键选择。<br/><br/>区别于其他动作的特点：<br/>1. 大多数用户不需要再选择路径。<br/>2. 增加验证机制，即使变更了软件安装路径，或者故意做一些破坏性、复杂性的操作也不影响使用。<br/>3. 同时读取选中文本和剪贴板文本搜索。<br/>4. 处理了特殊符号造成的错误弹窗。</p>
+                    </section>
+
+                    <section>
+                        <h4 class="mt-3">最近更新</h4>
+
+                        <table class="table table-bordered table-sm">
+                            <tr>
+                                <th>
+                                    更新时间
+                                </th>
+                                <th>
+                                    修订版本
+                                </th>
+                                <th>
+                                    更新说明
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    2020-02-15 20:26
+                                </td>
+                                <td>
+                                    1
+                                </td>
+
+                                <td>
+                                    加入文本截取步骤，防止搜索词过长影响操作。
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    2019-10-07 23:10
+                                </td>
+                                <td>
+                                    0
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                        </table>
+                    </section>
+
+
+
+
+                    <section>
+                        <h4 class="mt-3">演示动画</h4>
+                        <div class="p-3 text-secondary">
+                            暂无~
+                        </div>
+                    </section>
+                    <section>
+                        <h4 class="mt-3">补充信息</h4>
+                        <div class="action-detail">
+                            <div class="p-3 text-secondary">
+                                暂无~
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="mt-3 bg-white p-3 rounded" data-info="评论等">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item ml-3">
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+                                <img src="/images/topic.png" style="height: 1em; width: 1em;" />
+                                交流
+
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">
+                                更新历史 <span class="badge badge-pill badge-info">2</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content mt-2" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <div>
+
+
+
+                                <ul class="list-unstyled postlist">
+                                    <li class="media post">
+                                        <a class="mr-3" tabindex="-1">
+                                            <img class="avatar-3" src="/images/user.png">
+                                        </a>
+
+                                        <div class="media-body">
+                                            <div class="d-flex justify-content-between small text-muted">
+                                                <div>
+
+                                                    <span class="username font-weight-bold">
+                                                            <a class="user-link" href="/User/88055/vimgim">
+        vimgim
+    </a>
+
+                                                    </span>
+
+
+
+                                                    <span class="date text-light-grey ml-2">
+                                                        2019-11-11 21:30
+                                                    </span>
+
+
+                                                </div>
+                                                <div class="text-right text-grey">
+
+
+                                                    <a class="" href="/SharedactionComment?code=2861085b-84ba-4d5f-59dc-08d74b386fff&amp;replyTo=3842">回复</a>
+
+
+                                                </div>
+                                            </div>
+                                            <div class="message mt-1 break-all">
+
+
+                                                <p>感觉没<a href="https://getquicker.net/sharedaction?code=a90cdd9d-6c38-4bb8-bd9a-08d722ae2ba6" target="_blank">https://getquicker.net/sharedaction?code=a90cdd9d-6c38-4bb8-bd9a-08d722ae2ba6</a><a href="https://getquicker.net/sharedaction?code=a90cdd9d-6c38-4bb8-bd9a-08d722ae2ba6" style="font-size: 1rem;"></a>&nbsp;好用啊，资源管理器自动打开everthing目录，然后方便管理</p>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="media post">
+                                        <a class="mr-3" tabindex="-1">
+                                            <img class="avatar-3" src="/images/user.png">
+                                        </a>
+
+                                        <div class="media-body">
+                                            <div class="d-flex justify-content-between small text-muted">
+                                                <div>
+
+                                                    <span class="username font-weight-bold">
+                                                            <a class="user-link" href="/User/583/Marcus">
+        Marcus
+    </a>
+
+                                                    </span>
+
+
+
+                                                    <span class="date text-light-grey ml-2">
+                                                        2019-11-12 14:31
+                                                    </span>
+
+
+                                                </div>
+                                                <div class="text-right text-grey">
+
+
+                                                    <a class="" href="/SharedactionComment?code=2861085b-84ba-4d5f-59dc-08d74b386fff&amp;replyTo=3848">回复</a>
+
+
+                                                </div>
+                                            </div>
+                                            <div class="message mt-1 break-all">
+
+                                                <div class="reply-quote">
+                                                    回复 <strong> @vimgim</strong>
+                                                    <div class="quote">
+                                                        <p>感觉没<a href="https://getquicker.net/sharedaction?code=a90cdd9d-6c38-4bb8-bd9a-08d722ae2ba6" target="_blank">https://getquicker.net/sharedaction?code=a90cdd9d-6c38-4bb8-bd9a-08d722ae2ba6</a><a href="https://getquicker.net/sharedaction?code=a90cdd9d-6c38-4bb8-bd9a-08d722ae2ba6" style="font-size: 1rem;"></a>&nbsp;好用啊，资源管理器自动打开everthing目录，然后方便管理</p>
+                                                    </div>
+                                                </div>
+
+                                                <p>这个动作主要特点是解决各种路径问题，具体到使用细节，都有不同的特色。</p>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="media post">
+                                        <a class="mr-3" tabindex="-1">
+                                            <img class="avatar-3" src="/images/user.png">
+                                        </a>
+
+                                        <div class="media-body">
+                                            <div class="d-flex justify-content-between small text-muted">
+                                                <div>
+
+                                                    <span class="username font-weight-bold">
+                                                            <a class="user-link" href="/User/88055/vimgim">
+        vimgim
+    </a>
+
+                                                    </span>
+
+
+
+                                                    <span class="date text-light-grey ml-2">
+                                                        2019-11-12 14:45
+                                                    </span>
+
+
+                                                </div>
+                                                <div class="text-right text-grey">
+
+
+                                                    <a class="" href="/SharedactionComment?code=2861085b-84ba-4d5f-59dc-08d74b386fff&amp;replyTo=3849">回复</a>
+
+
+                                                </div>
+                                            </div>
+                                            <div class="message mt-1 break-all">
+
+
+                                                <p>能加入这个功能吗？<span style="color: rgb(68, 68, 68); font-size: 14px;">二、如果在资源管理器启动，就搜索当前资源管理器目录。</span></p>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="media post">
+                                        <a class="mr-3" tabindex="-1">
+                                            <img class="avatar-3" src="/images/user.png">
+                                        </a>
+
+                                        <div class="media-body">
+                                            <div class="d-flex justify-content-between small text-muted">
+                                                <div>
+
+                                                    <span class="username font-weight-bold">
+                                                            <a class="user-link" href="/User/88055/vimgim">
+        vimgim
+    </a>
+
+                                                    </span>
+
+
+
+                                                    <span class="date text-light-grey ml-2">
+                                                        2019-11-12 14:57
+                                                    </span>
+
+
+                                                </div>
+                                                <div class="text-right text-grey">
+
+
+                                                    <a class="" href="/SharedactionComment?code=2861085b-84ba-4d5f-59dc-08d74b386fff&amp;replyTo=3850">回复</a>
+
+
+                                                </div>
+                                            </div>
+                                            <div class="message mt-1 break-all">
+
+
+                                                <p>加入这个功能方便搜索查找，文件整理时会用的特别方便，我研究一下怎么把两个功能复制糅合到一起，得适当学习一下如何创建动作了</p>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="media post">
+                                        <a class="mr-3" tabindex="-1">
+                                            <img class="avatar-3" src="/images/user.png">
+                                        </a>
+
+                                        <div class="media-body">
+                                            <div class="d-flex justify-content-between small text-muted">
+                                                <div>
+
+                                                    <span class="username font-weight-bold">
+                                                            <a class="user-link" href="/User/583/Marcus">
+        Marcus
+    </a>
+
+                                                    </span>
+
+
+
+                                                    <span class="date text-light-grey ml-2">
+                                                        2019-11-12 20:20
+                                                    </span>
+
+
+                                                </div>
+                                                <div class="text-right text-grey">
+
+
+                                                    <a class="" href="/SharedactionComment?code=2861085b-84ba-4d5f-59dc-08d74b386fff&amp;replyTo=3859">回复</a>
+
+
+                                                </div>
+                                            </div>
+                                            <div class="message mt-1 break-all">
+
+                                                <div class="reply-quote">
+                                                    回复 <strong> @vimgim</strong>
+                                                    <div class="quote">
+                                                        <p>能加入这个功能吗？<span style="color: rgb(68, 68, 68); font-size: 14px;">二、如果在资源管理器启动，就搜索当前资源管理器目录。</span></p>
+                                                    </div>
+                                                </div>
+
+                                                <p>可以 有空试试</p>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="media post">
+                                        <a class="mr-3" tabindex="-1">
+                                            <img class="avatar-3" src="/images/user.png">
+                                        </a>
+
+                                        <div class="media-body">
+                                            <div class="d-flex justify-content-between small text-muted">
+                                                <div>
+
+                                                    <span class="username font-weight-bold">
+                                                            <a class="user-link" href="/User/109940/Selina.">
+        Selina.
+    </a>
+
+                                                    </span>
+
+
+
+                                                    <span class="date text-light-grey ml-2">
+                                                        2020-02-08 12:30
+                                                    </span>
+
+
+                                                </div>
+                                                <div class="text-right text-grey">
+
+
+                                                    <a class="" href="/SharedactionComment?code=2861085b-84ba-4d5f-59dc-08d74b386fff&amp;replyTo=5057">回复</a>
+
+
+                                                </div>
+                                            </div>
+                                            <div class="message mt-1 break-all">
+
+
+                                                <p>总是显示 “系统找不到指定驱动器”&nbsp; 如何解决呢？</p>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="media post">
+                                        <a class="mr-3" tabindex="-1">
+                                            <img class="avatar-3" src="/images/user.png">
+                                        </a>
+
+                                        <div class="media-body">
+                                            <div class="d-flex justify-content-between small text-muted">
+                                                <div>
+
+                                                    <span class="username font-weight-bold">
+                                                            <a class="user-link" href="/User/583/Marcus">
+        Marcus
+    </a>
+
+                                                    </span>
+
+
+
+                                                    <span class="date text-light-grey ml-2">
+                                                        2020-02-08 14:38
+                                                    </span>
+
+
+                                                </div>
+                                                <div class="text-right text-grey">
+
+
+                                                    <a class="" href="/SharedactionComment?code=2861085b-84ba-4d5f-59dc-08d74b386fff&amp;replyTo=5060">回复</a>
+
+
+                                                </div>
+                                            </div>
+                                            <div class="message mt-1 break-all">
+
+                                                <div class="reply-quote">
+                                                    回复 <strong> @Selina.</strong>
+                                                    <div class="quote">
+                                                        <p>总是显示 “系统找不到指定驱动器”&nbsp; 如何解决呢？</p>
+                                                    </div>
+                                                </div>
+
+                                                <p>系统比较特殊吗？这个不清楚什么原因。</p>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+
+                            </div>
+                            <div class="text-center">
+                                <a href="/Member/Home">请登录后评论</a>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <table class="table table-bordered table-sm">
+                                <tr>
+                                    <th>
+                                        修订版本
+                                    </th>
+                                    <th>
+                                        更新时间
+                                    </th>
+                                    <th>
+                                        更新说明
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        1
+                                    </td>
+                                    <td>
+                                        2020-02-15 20:26
+                                    </td>
+                                    <td>
+                                        加入文本截取步骤，防止搜索词过长影响操作。
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        0
+                                    </td>
+                                    <td>
+                                        2019-10-07 23:10
+                                    </td>
+                                    <td>
+                                        
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+</div>
+
+
+
+    </div>
+
+    <!-- ******FOOTER****** -->
+
+<div class="footer">
+    <div class="container ">
+        <div class="row font14">
+            <dl class="col-12 col-md-2">
+                <dt class="mb-3">产品</dt>
+                <dd><a href="/">主页</a></dd>
+                <dd><a href="/Download">下载</a></dd>
+                <dd><a href="/pricing">专业版</a></dd>
+            </dl>
+            <dl class="col-12 col-md-2">
+                <dt class="mb-3">文档</dt>
+                <dd><a href="/KC/Help">手册</a></dd>
+                <dd><a href="/KC/Versions">版本历史</a></dd>
+                <dd><a href="/KC/Kb">知识库</a></dd>
+            </dl>
+            <dl class="col-12 col-md-2">
+                <dt class="mb-3">分享</dt>
+                <dd><a href="/Share">动作库</a></dd>
+                <dd><a href="/Skins">外观</a></dd>
+
+            </dl>
+
+            <dl class="col-12 col-md-2">
+                <dt class="mb-3">交流</dt>
+                <dd><a href="/QA">问答</a></dd>
+                <dd><a href="https://github.com/cuiliang/quicker/issues">Github Issues</a></dd>
+                <dd><a href="/KC/Kb">知识库</a></dd>
+            </dl>
+            <dl class="col-12 col-md-2">
+                <dt class="mb-3">关注</dt>
+                <dd><a href="https://jq.qq.com/?_wv=1027&k=5ae9Ym5" target="_blank" title="QQ群"><i class="fab fa-qq"></i> 850609768</a></dd>
+                <dd><a href="https://weibo.com/cuiliang123" target="_blank" title="cuiliangbj的微博"> <i class="fab fa-weibo"></i> cuiliang的微博</a></dd>
+                <dd><img src="/assets/quicker/WeiXin.jpg" class="mt-1" style="width: 80px" title="微信订阅号" /></dd>
+            </dl>
+            <dl class="col-12 col-md-2">
+                <dt class="mb-3">条款</dt>
+                <dd><a href="/Privacy">隐私政策</a></dd>
+            </dl>
+        </div>
+        <div class="row">
+            <div class="col text-center text-secondary">
+                <span>Copyright &copy; 北京立迩合讯科技有限公司</span>  •  <a href="http://www.miitbeian.gov.cn" class="text-secondary">京ICP备09022189号-8</a>
+
+            </div>
+        </div>
+    </div>
+
+</div><!--//footer-->
+
+    <div class="alert alert-success alert-dismissible fade text-center shadow " role="alert" id="copySuccessAlert" style="display: none; position: fixed; top: 270px; left: 50%; transform: translate(-50%, 0); width: 70%; max-width: 600px ">
+        已复制到剪贴板，请在Quicker面板的空白按钮上点右键粘贴。
+    </div>
+
+    <div class="alert alert-success alert-dismissible fade text-center shadow " role="alert" id="commonCopySuccessAlert" style="display: none; position: fixed; top: 270px; left: 50%; transform: translate(-50%, 0); width: 70%; max-width: 600px ">
+        已复制到剪贴板。
+    </div>
+
+
+    
+
+
+    <!-- Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ismobilejs@1.0.3/dist/isMobile.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery-inview@1.1.2/jquery.inview.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.1/dist/js/lightbox.min.js"></script>
+
+    
+    <script src="/js/site.js?v=nQ3ymlW6CmqlYIURO8EvbA3-aXMV-26G1Mkq4rKtTeM"></script>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js" crossorigin="anonymous" integrity="sha384-rZfj/ogBloos6wzLGpPkkOr/gpkBNLZ6b6yLy4o+ok+t/SAKlL5mvXLr0OXNi1Hp">
+    </script>
+<script>(window.jQuery && window.jQuery.validator||document.write("\u003Cscript src=\u0022/lib/jquery-validation/dist/jquery.validate.min.js\u0022 crossorigin=\u0022anonymous\u0022 integrity=\u0022sha384-rZfj/ogBloos6wzLGpPkkOr/gpkBNLZ6b6yLy4o\u002Bok\u002Bt/SAKlL5mvXLr0OXNi1Hp\u0022\u003E\u003C/script\u003E"));</script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation-unobtrusive@3.2.11/dist/jquery.validate.unobtrusive.min.js" crossorigin="anonymous" integrity="sha384-ifv0TYDWxBHzvAk2Z0n8R434FL1Rlv/Av18DXE43N/1rvHyOG4izKst0f2iSLdds">
+    </script>
+<script>(window.jQuery && window.jQuery.validator && window.jQuery.validator.unobtrusive||document.write("\u003Cscript src=\u0022/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js\u0022 crossorigin=\u0022anonymous\u0022 integrity=\u0022sha384-ifv0TYDWxBHzvAk2Z0n8R434FL1Rlv/Av18DXE43N/1rvHyOG4izKst0f2iSLdds\u0022\u003E\u003C/script\u003E"));</script>
+
+<script>
+    // This will set `ignore` for all validation calls
+    jQuery.validator.setDefaults({
+        // This will ignore all hidden elements alongside `contenteditable` elements
+        // that have no `name` attribute
+        ignore: ":hidden, [contenteditable='true']:not([name])"
+    });
+</script>
+    <script src="/lib/summernote/summernote-bs4.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.editor').summernote({
+                tabsize: 2,
+                lang: 'zh-CN',
+                height: 160,
+                toolbar: [
+                    ['style', ['bold', 'italic', 'underline', 'clear']],
+                    ['font', ['strikethrough', 'superscript', 'subscript']],
+                    //['fontsize', ['fontsize']],
+                    ['color', ['color']],
+                    ['para', ['ul', 'ol', 'paragraph']],
+                    ['height', ['height']],
+                    ['insert', ['picture', 'link', 'video', 'table']]
+                ],
+                callbacks: {
+                    onImageUpload: function(image) {
+                        uploadImage(image[0]);
+                    }
+                }
+            });
+        });
+
+        $(document).ready(function() {
+            $('.comment_editor').summernote({
+                tabsize: 2,
+                lang: 'zh-CN',
+                height: 80,
+                toolbar: [
+                    ['style', ['bold', 'italic', 'underline', 'clear']],
+                    ['font', ['strikethrough', 'superscript', 'subscript']],
+                    //['fontsize', ['fontsize']],
+                    ['color', ['color']],
+                    ['para', ['ul', 'ol', 'paragraph']],
+                    ['height', ['height']],
+                    ['insert', ['picture', 'link', 'video', 'table']]
+                ],
+                callbacks: {
+                    onImageUpload: function(image) {
+                        uploadImage(image[0]);
+                    }
+                }
+            });
+        });
+
+        function uploadImage(image) {
+            var data = new FormData();
+            data.append("image", image);
+            $.ajax({
+                url: '/site/upload?type=kb',
+                cache: false,
+                contentType: false,
+                processData: false,
+                data: data,
+                type: "post",
+                success: function(url) {
+                    var image = $('<img>').attr('src', url);
+                    $('.editor').summernote("insertNode", image[0]);
+                },
+                error: function(data) {
+                    console.log(data);
+                }
+            });
+        }
+
+
+        $('#btnWeixin').popover({
+            content:
+                "<img src='/service/qrcode?code=https%3A%2F%2Fgetquicker.net%2Fsharedaction%3Fcode%3D2861085b-84ba-4d5f-59dc-08d74b386fff&pixelsPerModule=2' />",
+            html: true,
+            placement: 'bottom',
+            title: '微信扫一扫',
+            trigger: 'hover'
+        });
+    </script>
+
+
+
+    <div class="modal fade " tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true" id="modalWindow">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <iframe style="max-height: 80vw; min-height: 40vw; width: 100%;" id="modalIFrame" onload="resizeIframe && resizeIframe(this)"></iframe>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
