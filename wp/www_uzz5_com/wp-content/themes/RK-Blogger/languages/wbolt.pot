@@ -1,0 +1,490 @@
+# Copyright (C) 2019 storeys
+# This file is distributed under the same license as the storeys package.
+msgid ""
+msgstr ""
+"Project-Id-Version: storeys\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: wbolt_blog/404.php:23, wbolt_blog/searchform.php:12, wbolt_blog/template-parts/content-none.php:27
+msgid "Search"
+msgstr ""
+
+#: wbolt_blog/comments.php:24
+msgid "Comments are closed."
+msgstr ""
+
+#: wbolt_blog/functions.php:63
+msgid "主导航菜单"
+msgstr ""
+
+#: wbolt_blog/functions.php:64
+msgid "页脚菜单"
+msgstr ""
+
+#: wbolt_blog/header.php:85
+msgid "显/隐菜单"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: wbolt_blog/common/class-tgm-plugin-activation.php:337
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: wbolt_blog/common/class-tgm-plugin-activation.php:339
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:341
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:347
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:353
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:359
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:365
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:371
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:393, wbolt_blog/common/class-tgm-plugin-activation.php:994, wbolt_blog/common/class-tgm-plugin-activation.php:2700, wbolt_blog/common/class-tgm-plugin-activation.php:3747
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:394, wbolt_blog/common/class-tgm-plugin-activation.php:3326
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:395, wbolt_blog/common/class-tgm-plugin-activation.php:3119
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: wbolt_blog/common/class-tgm-plugin-activation.php:397
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: wbolt_blog/common/class-tgm-plugin-activation.php:399
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: wbolt_blog/common/class-tgm-plugin-activation.php:401
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:403
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:681
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:682
+msgid "Update Required"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:799
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:1101
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:1101, wbolt_blog/common/class-tgm-plugin-activation.php:1104
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:1104
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:1288, wbolt_blog/common/class-tgm-plugin-activation.php:3115
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2149
+msgid "TGMPA v%s"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2440
+msgid "Required"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2443
+msgid "Recommended"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2459
+msgid "WordPress Repository"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2462
+msgid "External Source"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2465
+msgid "Pre-Packaged"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2482
+msgid "Not Installed"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2486
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2488
+msgid "Active"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2494
+msgid "Required Update not Available"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2497
+msgid "Requires Update"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2500
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2509
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2555
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2559
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2563
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2567
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2649
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2657
+msgid "Installed version:"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2665
+msgid "Minimum required version:"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2677
+msgid "Available version:"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2700
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2714
+msgid "Plugin"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2715
+msgid "Source"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2716
+msgid "Type"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2720
+msgid "Version"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2721
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2770
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2775
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2781
+msgid "Activate %2$s"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2851
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2884
+msgid "Install"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2890
+msgid "Update"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2893
+msgid "Activate"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2924
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2926
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2967
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:2969
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:3075
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:3101
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:3325
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: wbolt_blog/common/class-tgm-plugin-activation.php:3665
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: wbolt_blog/common/class-tgm-plugin-activation.php:3668
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: wbolt_blog/common/class-tgm-plugin-activation.php:3670
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:3674
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: wbolt_blog/common/class-tgm-plugin-activation.php:3676
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:3676, wbolt_blog/common/class-tgm-plugin-activation.php:3684
+msgid "Show Details"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:3676, wbolt_blog/common/class-tgm-plugin-activation.php:3684
+msgid "Hide Details"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:3677
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: wbolt_blog/common/class-tgm-plugin-activation.php:3679
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:3682
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: wbolt_blog/common/class-tgm-plugin-activation.php:3684
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: wbolt_blog/common/class-tgm-plugin-activation.php:3685
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: wbolt_blog/common/class-tgm-plugin-activation.php:3687
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: wbolt_blog/common/_wbt_core.php:17
+msgctxt "previous post"
+msgid "Prev"
+msgstr ""
+
+#: wbolt_blog/common/_wbt_core.php:18
+msgctxt "next post"
+msgid "Next"
+msgstr ""
+
+#: wbolt_blog/common/_wbt_core.php:19, wbolt_blog/common/_wbt_core.php:40
+msgid "Posts navigation"
+msgstr ""
+
+#: wbolt_blog/common/_wbt_core.php:44
+msgid "More"
+msgstr ""
+
+#: wbolt_blog/common/_wbt_core.php:110
+msgid "Home"
+msgstr ""
+
+#: wbolt_blog/common/_wbt_core.php:183
+msgid "Search Results"
+msgstr ""
+
+#: wbolt_blog/common/_wbt_core.php:193
+msgid "Post"
+msgstr ""
+
+#: wbolt_blog/common/_wbt_core.php:201
+msgid "Page"
+msgstr ""
+
+#: wbolt_blog/common/_wbt_core.php:374
+msgctxt "post time"
+msgid "Before"
+msgstr ""
+
+#: wbolt_blog/template-parts/content-none.php:18, wbolt_blog/template-parts/content-none.php:22
+msgid "Oh~oh~...暂时未有相关文章，或者你可以试下搜索其他关键字"
+msgstr ""
+
+#: wbolt_blog/widget/widget.php:17
+msgid "边栏上部"
+msgstr ""
+
+#: wbolt_blog/widget/widget.php:19, wbolt_blog/widget/widget.php:26
+msgid "可将需要的小工具拖动至此范围，即可在则栏显示"
+msgstr ""
+
+#: wbolt_blog/widget/widget.php:24
+msgid "边栏低部"
+msgstr ""
+
+#: wbolt_blog/widget/widget.php:31
+msgid "文章详情底部"
+msgstr ""
+
+#: wbolt_blog/widget/widget.php:33
+msgid "可将需要的小工具拖动至此范围，即可文章详情页底部显示"
+msgstr ""
